@@ -1,0 +1,80 @@
+
+.nav-DiscountItem{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.left-sectoin {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+}
+
+.nav-DiscountItem a{
+    color:#151875 ;
+}
+
+
+
+.DiscountItem h3 {
+
+    color: #151875;
+    font-size: 35px;
+}
+
+.left-sectoin p{
+    color: var(--maincoler)  ;
+}
+
+.left-sectoin .description{
+    color: #B7BACB ;
+    width:59%;
+    line-height: 1.5;
+}
+
+
+.left-sectoin .row{
+    justify-content: flex-start;
+    gap: 30px ;
+
+    color: #B7BACB ;
+}
+
+.left-sectoin .row ul{
+    margin-bottom:10px ;
+}
+
+.left-sectoin .row3 ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    color:#B7BACB  ;
+}
+
+
+.DiscountItem .row{
+    justify-content: center;
+}
+
+
+@media screen and (max-width:1792px) {
+
+    .DiscountItem .row{
+       margin-top: 90px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-sectoin{
+
+        margin-top: 40px;
+    }
+
+    
+}

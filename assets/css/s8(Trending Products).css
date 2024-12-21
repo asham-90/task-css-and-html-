@@ -1,0 +1,25 @@
+.Trending-Products{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    padding: 6px 6px 30px 6px; 
+    box-shadow: 4px 5px 40px #F5F6F8 ;
+    margin-top: 10px;
+}
+
+
+.TrendingProducts .row{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.Trending-Products s {
+    
+    color: #B9BAD6;
+
+}
+

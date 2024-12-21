@@ -1,0 +1,72 @@
+.LeatestBlog-contant{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 0 solid;
+    gap: 17px ;
+    width: 15.3%;
+    border-radius: 8px;
+    box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 150px;
+    
+}
+.LeatestBlog-contant img{
+    border-radius: 8px;
+
+}
+  
+.LeatestBlog .LeatestBlog-contant .span2{
+    margin-right:  29px;
+    
+}
+
+.LeatestBlog-contant span{
+    margin-bottom:  14px; 
+}
+
+.LeatestBlog-contant i{
+
+    margin-right: 5px; 
+
+}
+
+.blog-text{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+gap: 17px ;
+border: 0 solid;
+border-radius: 5px;
+padding:10px
+
+
+}
+.LeatestBlog-titel{
+
+    font-size: 18px;
+    color:#151875 ;
+}
+
+.blog{
+    color: #B7BACB ;
+    width:86%;
+    line-height: 1.5;
+}
+
+.LeatestBlog-contant a {
+    color:#151875 ;
+    text-decoration: underline;
+}
+
+
+.blog-text:hover{
+    .LeatestBlog-titel{
+        color: var(--maincoler);
+    }
+
+    a{
+        color: var(--maincoler);
+    }
+
+
+}

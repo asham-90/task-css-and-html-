@@ -1,0 +1,33 @@
+.newslater{
+    background-image: url(../image/public/background\ blog.png);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 28px ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 462px;
+
+}
+
+.newslater h2{
+    color: #151875;
+    line-height: 1.5;
+    width: 21%;
+    font-size: 35px;
+}
+
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 96px;
+
+
+}
+
+.partners img{
+    width: 50%;
+}

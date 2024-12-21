@@ -1,0 +1,82 @@
+.footer{
+    background-color:#EEEFFB ;
+    padding: 100px 0;
+}
+.left-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px ;
+    width: 400px;
+}
+
+.Email form input {
+   border: 0;
+   padding: 10px 13px 10px 17px 
+}
+
+.Email button {
+    border: 0px;
+    border-radius: 3px;
+    background-color: var(--maincoler) ;
+    padding: 10px 25px ;
+    color: white;
+}
+ 
+footer .contact{
+    color: #8A8FB9;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+address{
+    color: #8A8FB9;
+}
+
+.right-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:50px ;
+    flex-grow: 1;
+
+}
+
+.right-footer-contant{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.nav-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer p{
+    color: #8A8FB9;
+}
+
+.right-footer-contant a {
+    gap: 20px;
+    color: #BAB6CE ;
+}
+
+@media screen and (max-width:477px) {
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+    }
+
+    .right-footer{
+        margin-top: 30px;
+    }
+}

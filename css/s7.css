@@ -1,0 +1,62 @@
+.UniqueFeatures-text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+
+.titel-UniqueFeatures{
+    color: #151875 ;
+    font-size: 35px;
+    width: 62%;
+}
+
+ .row .UniqueFeatures-text.dot1{
+    font-size: 65px;
+    color: var(--maincoler);
+    width: fit-content;
+}
+
+.dot1{
+    font-size: 65px;
+    color:var(--maincoler);
+}
+
+.dot2{
+    font-size: 65px;
+    color: #2B2BF5;
+}
+
+.UniqueFeatures-text  .dot3{
+    font-size: 65px;
+    color:#2BF5CC ;
+}
+
+
+
+
+.price-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9px;
+
+}
+
+.price-button span{
+    text-align: center;
+    width: 16%;
+    line-height: 1.5;
+  
+}
+
+
+
+.UniqueFeatures .row{
+    justify-content: center;
+    gap: 20px ;
+    background-color:#F1F0FF ;
+    margin-top: 150px;
+}

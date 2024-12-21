@@ -1,0 +1,54 @@
+.hero{
+    padding: 30px 0 ;
+    background-color: #F2F0FF;
+}
+
+.hero-contant{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:20px ;
+}
+
+.subtitel{
+    color: var(--maincoler);
+}
+
+h1{
+    font-size: 53px; 
+    font-family: var(--mainfont);
+}
+
+.hero .hero-contant p {
+    color: #8A8FB9;
+    width: 57%;
+}
+
+
+
+.title{
+    width: 68%;
+
+}
+
+@media screen and (max-width:1594px) {
+
+    .main .row{
+    
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width:1920px) {
+
+    .main .hero-contant{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 50%;
+        
+    }
+    
+}

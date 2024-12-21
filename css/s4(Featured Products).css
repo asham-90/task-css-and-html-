@@ -1,0 +1,250 @@
+.Cantilever-chair{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    transition: all 0.5s ;
+
+
+}
+
+.Cantilever-chair  img{
+  width: 100%;
+  padding-top: 30px;
+}
+
+
+
+
+
+.product-name{
+    color: var(--maincoler);
+    text-transform: capitalize;
+}
+
+.Cantilever-chair img{
+    background-color:#F6F7FB ;
+    border-radius: 5px;
+}
+
+.Cantilever-chair-text{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  ;
+    border:0px solid;
+    padding:20px 0px 20px 0px ;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transition: 0.4;
+
+
+}
+
+.colors {
+    display: flex; 
+    gap: 8px;
+    margin-bottom: 8px; 
+    justify-content: center;
+  }
+
+  .colors span {
+    width: 24px;
+    height: 4px; 
+    border-radius: 2px; 
+  }
+  
+.icons{
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  position: relative;
+  top: 30px; 
+  left: 9px;
+  display: none;
+
+}
+
+.icons2{
+  align-content: center;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: 30px; 
+  left: 9px;
+  display: none;
+  
+
+}
+
+.icons3{
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  position: relative;
+  top: 30px; 
+  left: 9px;
+  display: none;
+
+}
+
+
+.icons4{
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  position: relative;
+  top: 30px; 
+  left: 9px;
+  display: none;
+
+}
+
+
+  .color1 {
+    background-color: #00C7A8; 
+  }
+  .color2 {
+    background-color: #FF4081; 
+  }
+  .color3 {
+    background-color: #1E1EF3; 
+  }
+
+.Code{
+    color:#151875 ;
+}
+
+.Price{
+
+    color:#151875 ;
+
+}
+
+.Featured-Products .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    align-content: center;
+   
+
+}
+
+
+.Cantilever-chair-text-error{
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  
+  border:0px solid;
+  padding:20px 30px ;
+  margin-top: 50px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.shop-now1{
+  border: 0;
+  background-color: #08D15F ;
+  padding:9px 6px ;
+  border-radius: 5px;
+  position: relative;
+  top:229px ;
+  left:510px;
+  display: none;
+
+}
+
+
+.shop-now2{
+  border: 0;
+  background-color: #08D15F ;
+  padding:9px 6px ;
+  border-radius: 5px;
+  position: relative;
+  top:246px ;
+  left:789px;
+  display: none;
+}
+
+.shop-now3{
+  border: 0;
+  background-color: #08D15F ;
+  padding:9px 6px ;
+  border-radius: 5px;
+  position: relative;
+  top:241px ;
+  left:1064px;
+  display: none;
+}
+
+
+.shop-now4{
+  border: 0;
+  background-color: #08D15F ;
+  padding:9px 6px ;
+  border-radius: 5px;
+  position: relative;
+  top:228px ;
+  left:1359px;
+  display: none;
+ 
+}
+
+
+
+
+
+
+
+.Cantilever-chair:hover{
+  border: 2px solid #9747FF;
+  .Cantilever-chair-text{
+    background-color: #2F1AC4;
+  
+   
+  }
+
+  .Cantilever-chair-text-error{
+    background-color: #2F1AC4;
+    
+    
+  }
+
+
+  
+
+  .Code,.Price,.product-name{
+  
+    color: white;
+
+
+  }
+
+
+  .color3{
+    color:#FFEAC1 ;
+  }
+
+
+  .icons,.icons2,.icons3,.icons4{
+    display: flex;
+  }
+
+  .Featured-Products .container:hover{
+    .shop-now1{
+      display: flex;
+  }
+}
+
+  
+
+}
+
+
+
+

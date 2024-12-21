@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body  h1,h2,h3,h4{
+    font-family: "Josefin Sans", serif;
+}
+
+body p,a,button,span,s{
+    font-family: "Josefin Sans", serif;
+}
+
+
+:root{
+    --maincoler:#FB2E86;
+    --mainfont:font-family: "Lato", serif;
+    --secondfont:font-family: "Josefin Sans", serif;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: calc(100% - 300px ) ;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width:100%  ;
+}
+
+.titel-sectoin{
+
+    text-align: center;
+    color: #1A0B5B;
+    font-size: 42px;
+    margin-bottom: 42px;
+    margin-top: 129px ;
+}
+
+.shop-now {
+    background-color: var(--maincoler);
+    padding: 15px 40px;
+    border-radius: 2px;
+    color: white;
+    width: fit-content;
+    border: 0 ;
+}
+
